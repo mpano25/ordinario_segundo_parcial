@@ -1,15 +1,20 @@
 *{
-    border: radius 300px;
-    background-color: rgb(199, 193, 193);
-}
+    border-radius: none;
+    background-color: none;
+    width: 100%;
+    padding-right: 50%;
+    align-items: center;
+    text-align: center ;
 
 .menu{
-    border-radius: 2px;
-    box-sizing: border-box;
+    border-radius: none;
+    box-sizing: content-box;
     background-color: rgb(247, 212, 138);
-    width: 300px;
+    width: 50px;
+    font-size: large;
     margin-right: 100px;
     outline-style: none;
+    text-align: center;
 
 }
 
@@ -20,4 +25,33 @@
     text-align: center;
     text-decoration: sandybrown;
     text-decoration-color: antiquewhite;
+    padding-bottom: 10%;
+}
+
+.label{
+    border-radius: none;
+    width: 500%;
+    box-sizing: border-box;
+    flex: auto;
+}
+
+.label2{
+    border-radius: none;
+    box-sizing: 30px;
+    background-color: aliceblue;
+}
+
+.boton{
+    box-sizing: content-box;
+    background-color: rgb(82, 82, 243);
+    color: blanchedalmond;
+    margin-right: 100%;
+    width: 100px;
+    padding: 2px;
+    text-align: auto;
+}
+
+.texto{
+    box-sizing: border-box;
+    padding-bottom: 20%;
 }
