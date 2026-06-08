@@ -1,0 +1,23 @@
+*{
+    border: radius 300px;
+    background-color: rgb(199, 193, 193);
+}
+
+.menu{
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: rgb(247, 212, 138);
+    width: 300px;
+    margin-right: 100px;
+    outline-style: none;
+
+}
+
+
+.menu a{
+    margin-top: auto;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: sandybrown;
+    text-decoration-color: antiquewhite;
+}
